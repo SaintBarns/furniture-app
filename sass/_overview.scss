@@ -1,0 +1,38 @@
+.overview {
+   display: flex;
+   justify-self: center;
+   font-size: 1.2rem;
+   font-weight: 300;
+   text-transform: capitalize;
+   line-height: 1.6;
+   margin-bottom: 2rem;
+
+   column-gap: 3rem;
+
+   &__project {
+      padding: 3rem;
+      flex: 0 0 50%;
+   }
+
+   &__design {
+      padding: 3rem;
+      flex: 1;
+   }
+
+   &__paragraph {
+      font-size: 1.2rem;
+      font-weight: 100;
+   }
+
+&__name-date {
+   display: flex;
+   margin-top: 2rem;
+
+}
+
+&__date {
+   margin-right: 2rem;
+}
+
+
+}

@@ -1,0 +1,55 @@
+.footer {
+    
+    background-color: #fff;
+    padding: 6rem;
+
+    &__agency {
+
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    &__furniture {
+        font-size: 2rem;
+     }
+
+     &__socials{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+     }
+
+     &__email {
+        font-size: 1.2rem;
+      }
+
+
+       &__input {
+        border: none;
+        padding: 1rem 1.5rem;
+        outline: none;
+        border-bottom: 1px solid var(--color-secondary);
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+      &__contact-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 2rem;
+        
+    }
+
+    &__para{
+        font-size: 3rem;
+    }
+
+    &__icon {
+        font-size: 2rem;
+    }
+
+}
+

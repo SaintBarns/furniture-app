@@ -1,0 +1,45 @@
+/*COLOR VARIABLES*/
+
+:root {
+--color-primary: #F5F5F5; // background
+--color-secondary:  #2C3878; // discuss
+
+--color-grey:   #333333; // contact us text, also for best furniture agency, for email
+--color-grey-light-1:   #FFFFFF; // contact btn
+--color-grey-light-2:  #9C9C9C; // body font size
+
+--color-black:   #000000; // dananz
+
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}  
+
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 3rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: --color-grey-light-2;
+
+}
+
+.container {
+   width: 100%;
+   min-height: 30rem;
+  
+}
+
+
